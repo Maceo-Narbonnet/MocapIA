@@ -1,0 +1,13 @@
+\chapter{Résumé Technique}
+
+\vspace{\fill}
+
+   Ce stage s'est déroulé au sein de l'équipe BioMovE, une division du laboratoire BMBI (BioMécanique et BioIngénieurie) de l'UTC. L'objectif principal du stage est de développer et d'améliorer un logiciel de capture de mouvement \textbf{sans marqueurs} (aussi appelé \textbf{markerless motion capture}). Basé sur l'intelligence artificielle et la vision par ordinateur, ce logiciel nommé \textbf{MoCapIA} permet de capturer le mouvement humain en 3D à partir de vidéos prises par plusieurs caméras synchronisées. Contrairement aux systèmes traditionnels de capture de mouvement qui utilisent des marqueurs physiques attachés au corps, MoCapIA offre une solution plus flexible et moins coûteuse pour l'analyse du mouvement.
+   
+   Ce stage s'inscrit dans la continuité de quatre autres stages réalisés les quatre derniers semestres (A23, P24, A24, P25 respectivement intitulés MoCapIA-1, MoCapIA-2, MoCapIA-3 et MoCapIA-4). Durant ces précédents stages, les principales fonctionnalités de base du logiciel ont été développées. Le principe de base de \textbf{calibration}, de \textbf{détection} et de \textbf{reconstruction 3D} du mouvement ont été implémentés. Pour MoCapIA-5, l'objectif est de calculer la précision, d'améliorer la robustesse et la précision du logiciel en intégrant de nouvelles fonctionnalités et en optimisant celles déjà développées. Une interface avait aussi été déjà développée en amont et son amélioration/optimisation reste un objectif secondaire de ce stage (plutôt dédié à la deuxième stagiaire présente avec moi durant le semestre). Il utilise PyQt5 orienté objet et les nouvelles fonctionnalités y seront intégrés.
+   
+   Toujours en python orienté objet, la partie "mathématique" du logiciel utilise plusieurs bibliothèques open-source telles que OpenCV pour le traitement d'images, NumPy pour les calculs numériques, ainsi que plusieurs modèles d'intelligence artificielle pré-entraînés pour la détection des points clés du corps humain dans les images 2D (TensorFlow, PyTorch, RTMPose, YOLO, ...). Ce sont ces fonctionnalités que le stage vise à améliorer notamment pour atteindre une précision suffisante pour une analyse biomécanique. En ce sens, de nouveaux packages et fonctionnalités autour d'OpenSim (un logiciel open-source de simulation musculo-squelettique) et de la bio-cinématique seront intégrés.
+
+    
+  \vspace{\fill}
+\vfill

@@ -1,0 +1,14 @@
+# Fichiers générés (regénérables depuis le code source)
+**/__pycache__/
+*.pyc
+src/build/
+src/dist/
+src/Ui/build/
+
+# Poids YOLO pré-entraînés : publics, retéléchargeables via Ultralytics,
+# et deux d'entre eux dépassent la limite de 100 Mo de GitHub.
+# Voir le README pour la liste des poids attendus dans src/.
+*.pt
+
+# Log d'exécution de l'application
+src/config/Settings/log.txt

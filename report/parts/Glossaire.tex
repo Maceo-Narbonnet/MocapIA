@@ -1,0 +1,120 @@
+\chapter*{Glossaire} % Le * évite de numéroter "Chapitre X"
+\addcontentsline{toc}{chapter}{Glossaire} % Ajoute manuellement au sommaire
+\markboth{Glossaire}{Glossaire} % Corrige l'en-tête de page
+
+% Début de la liste de définitions
+\begin{description}
+    \setlength{\itemsep}{1em} % Ajoute de l'espace entre les définitions pour aérer
+
+    \item[\textbf{\underline{Binning}}] 
+    Technique de regroupement de données en "bins" (ou boîtes) pour réduire le bruit.
+
+    \item[\textbf{\underline{BioMov-E}}] 
+    Équipe de recherche du labo BMBI spécialisée dans la BioMécanique et le mouvement humain.
+
+    \item[\textbf{\underline{Bland-Altman}}] 
+    Méthode statistique utilisée pour comparer deux techniques de mesure.
+
+    \item[\textbf{\underline{BMBI}}] 
+    BioMécanique et BioIngénierie, laboratoire de recherche de l'UTC où le stage a été effectué.
+
+    \item[\textbf{\underline{Bounding box}}] 
+    Boîte englobante, un rectangle délimitant une région d'intérêt dans une image, souvent utilisé en vision par ordinateur pour localiser des objets/personnes.
+
+    \item[\textbf{\underline{Calibration}}] 
+    Processus permettant de déterminer la position et l'orientation des caméras dans l'espace 3D ainsi que leurs paramètres intrinsèques (focale, distorsion).
+
+    \item[\textbf{\underline{Cinématique Inversée}}] 
+    Méthode utilisée en robotique et en animation pour déterminer les angles des articulations nécessaires afin d'atteindre une position ou une orientation spécifique d'un segment ou d'un effecteur.
+
+    \item[\textbf{\underline{CNRS}}] 
+    Centre National de la Recherche Scientifique.
+
+    \item[\textbf{\underline{Complexité computationnelle}}] 
+    Mesure de la quantité de ressources nécessaires pour exécuter un algorithme, souvent en nombre d'opérations ou d'espace mémoire.
+
+    \item[\textbf{\underline{Distorsion}}] 
+    Déformation optique des images capturées par les caméras.
+
+    \item[\textbf{\underline{Écart type}}] 
+    Mesure statistique de la dispersion des valeurs autour de la moyenne.
+
+    \item[\textbf{\underline{Estimation 2D}}] 
+    Processus d'identification des positions des points d'intérêt dans une image 2D, souvent utilisé en vision par ordinateur est effectué par RTMPose dans MoCapIA.
+
+    \item[\textbf{\underline{Filtre Butterworth}}] 
+    Type de filtre de traitement du signal conçu pour offrir une réponse en fréquence la plus plate possible dans la bande passante (sans ondulations), tout en atténuant progressivement les fréquences indésirables au-delà d'une certaine limite appelée fréquence de coupure.
+
+    \item[\textbf{\underline{Filtre Butterworth Speed}}] 
+    Type de filtre de traitement du signal qui privilégie la réduction du déphasage et du temps de réponse pour traiter des signaux en temps réel sans retard excessif.
+
+    \item[\textbf{\underline{Filtre Gaussian}}] 
+    Technique de lissage qui réduit le bruit d'une image ou d'un signal en calculant pour chaque point une moyenne pondérée de ses voisins, où les poids sont définis par une courbe en cloche (la fonction de Gauss) afin d'accorder une importance maximale au centre et de l'atténuer progressivement avec la distance.
+
+    \item[\textbf{\underline{Filtre GCV Spline}}] 
+    Méthode d'ajustement de courbe qui utilise une fonction mathématique flexible (spline) dont le degré de lissage est automatiquement optimisé en cherchant à minimiser l'erreur de prédiction globale sans nécessiter de connaître à l'avance le niveau de bruit des données.
+
+    \item[\textbf{\underline{Filtre Hampel}}] 
+    Algorithme robuste qui détecte et remplace les valeurs aberrantes (outliers) dans une série temporelle en analysant chaque point au sein d'une fenêtre mobile.
+
+    \item[\textbf{\underline{Filtre Kalman}}] 
+    Algorithme récursif qui estime l'état d'un système dynamique (comme la position d'un avion ou d'une voiture) en fusionnant des prédictions théoriques incertaines avec des mesures réelles bruitées, afin de produire l'estimation la plus précise possible en temps réel.
+
+    \item[\textbf{\underline{Filtre LOESS}}] 
+    Méthode de régression locale qui lisse une courbe en ajustant une multitude de modèles simples (généralement des polynômes de bas degré) sur de petites fenêtres de données glissantes, accordant plus de poids aux points les plus proches de la zone à estimer.
+
+    \item[\textbf{\underline{Focale}}] 
+    Distance entre le centre optique de la lentille et le capteur, déterminant le champ de vision de la caméra.
+
+    \item[\textbf{\underline{Logs}}] 
+    Fichiers journaux enregistrant les événements et les erreurs survenus lors de l'exécution du logiciel MoCapIA.
+
+    \item[\textbf{\underline{Markerless}}] 
+    En français "sans marqueurs", ce terme est utilisé pour désigner les systèmes de capture de mouvement qui n'utilisent pas de marqueurs physiques attachés au corps.
+
+    \item[\textbf{\underline{mocap}}] 
+    De l'anglais "motion capture", capture de mouvement en français.
+
+    \item[\textbf{\underline{MoCapIA}}] 
+    Projet sur lequel le stage porte – c'est un système de capture de mouvement sans marqueurs physiques.
+
+    \item[\textbf{\underline{Multi-view}}] 
+    Technique utilisant plusieurs points de vue ou caméras pour reconstruire une scène ou un objet en 3D.
+
+    \item[\textbf{\underline{Offset}}] 
+    Valeur de décalage constant sur l'ensemble du signal.
+
+    \item[\textbf{\underline{OpenSim}}] 
+    Package open-source de simulation musculo-squelettique utilisé pour l'analyse biomécanique développée dans le cadre du logiciel OpenSim.
+
+    \item[\textbf{\underline{Pipeline}}] 
+    Ensemble des étapes de traitement des données dans un processus.
+
+    \item[\textbf{\underline{Plage de fonctionnement}}] 
+    Intervalle dans lequel 95\% des données mesurées se situent.
+
+    \item[\textbf{\underline{Pose2Sim}}] 
+    Autre projet de capture de mouvement sans marqueurs.
+
+    \item[\textbf{\underline{PyQt5}}] 
+    Bibliothèque Python pour créer des interfaces graphiques, utilisée dans le projet MoCapIA.
+
+    \item[\textbf{\underline{Scaling}}] 
+    En français "mise à l'échelle", processus d'ajustement de l'échelle des données pour les rendre comparables ou pour améliorer la performance des algorithmes.
+
+    \item[\textbf{\underline{Timecode}}] 
+    Système de synchronisation temporelle entre plusieurs dispositifs d'enregistrement, ici les caméras.
+
+    \item[\textbf{\underline{Triangulation}}] 
+    Méthode utilisée pour déterminer la position 3D d'un point en utilisant plusieurs vues 2D provenant de caméras différentes.
+
+    \item[\textbf{\underline{TSS}}] 
+    Technologie Sport Santé, plateforme dédiée à l'analyse du mouvement humain au sein du laboratoire BMBI.
+
+    \item[\textbf{\underline{Valeurs aberrantes}}] 
+    Données qui s'écartent significativement des autres observations, pouvant indiquer une erreur ou une variabilité inhabituelle.
+
+    \item[\textbf{\underline{Vicon}}] 
+    Vicon T160 est un système de capture de mouvement optoélectronique de référence composé ici de 18 caméras MXT160, 12 caméras Bonita 3 ainsi que 7 caméras Vantage 5.
+
+\end{description}

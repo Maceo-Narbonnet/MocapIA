@@ -1,0 +1,32 @@
+{
+    "current_project": {
+        "path": "D:/Users/Etudiant/Documents/MOCAPIA5/mocapia_3/ProjectsFOLDERS/AF3_CJL",
+        "saved": true
+    },
+    "current_experiment_name": "AF6",
+    "current_used_config": [
+        {
+            "ip": "C3501350052453",
+            "config_name": "Default"
+        },
+        {
+            "ip": "C3501325621627",
+            "config_name": "Default"
+        },
+        {
+            "ip": "C3501325588979",
+            "config_name": "Default"
+        },
+        {
+            "ip": "C3501325623877",
+            "config_name": "Default"
+        }
+    ],
+    "last_project_settings": {
+        "path": "D:/Users/Etudiant/Documents/MOCAPIA5/mocapia_3",
+        "experimenter": "CJL"
+    },
+    "current_experiment": {
+        "name": "AF6"
+    }
+}

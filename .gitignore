@@ -1,0 +1,43 @@
+# Ce dépôt ne versionne que le code et les livrables personnels du stage.
+# Le reste du dossier local est exclu : soit au-delà des limites GitHub
+# (100 Mo par fichier), soit sans intérêt à être versionné.
+
+# Données brutes des expériences (~19 Go de vidéos GoPro et de runs)
+/experiments/
+
+# Enregistrements et captures de l'interview (~570 Mo)
+/media/
+
+# Ressources externes : articles tiers, installeurs d'outils
+/research/
+
+# Rapports et supports d'avancement des collègues (~285 Mo)
+/defense/colleagues-reports/
+
+# Archive brute de toutes les captures d'écran du stage (~290 Mo)
+/documentation/process-captures/
+
+# Anciennes versions conservées par précaution
+/archive/
+
+# Documents administratifs (convention de stage, évaluation)
+/admin/
+
+# Raccourcis Google Drive : pointeurs, pas les fichiers réels
+/team-tea-time/
+
+# Fichiers de compilation LaTeX
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.bbl
+*.blg
+
+# Divers
+Thumbs.db
+desktop.ini
+~$*

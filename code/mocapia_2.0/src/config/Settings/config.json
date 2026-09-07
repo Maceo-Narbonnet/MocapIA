@@ -1,0 +1,111 @@
+{
+  "Render3D": {
+    "bg_color": "#000000",
+    "point_size": 5,
+    "point_color": "#FF5733",
+    "selected_point_color": "#FF5733",
+    "add_trail": true,
+    "trail_length_before": 2,
+    "trail_length_after": 2,
+    "trail_color": "#3333FF",
+    "add_grid": true,
+    "grid_size_auto": true,
+    "grid_color": "#FFFFFF",
+    "grid_size": 10,
+    "grid_square_size": 1
+  },
+  "Plot2D": {
+    "bg_color": "#000000",
+    "plot_color": "#FF5733",
+    "thickness": 3,
+    "stacking": true,
+    "add_grid": true,
+    "timeline_width": 10
+  },
+  "intrinsinc_calibration": {
+    "tmp_calib_folder": "D:/Users/Etudiant/Documents/MoCapIA3/MocapIA_3/src/tmp",
+    "video_time": 20,
+    "video_offset": 0,
+    "nb_images": 20,
+    "view_scale_percent": 50,
+    "upscale_coeff": 2,
+    "nCol": 10,
+    "nRow": 7,
+    "downscale_coeff": 1
+  },
+  "extrinsic_calibration": {
+    "tmp_calib_folder": "D:/Users/Etudiant/Documents/MoCapIA3/MocapIA_3/src/tmp",
+    "video_time": 20,
+    "video_offset": 0,
+    "nb_images": 20,
+    "view_scale_percent": 50,
+    "upscale_coeff": 2,
+    "nCol": 10,
+    "nRow": 7,
+    "downscale_coeff": 1
+  },
+  "RTMPose_triangulation": {
+    "already_done": true
+  },
+  "filtering": {
+    "filter": true,
+    "display_figures": true,
+    "make_c3d": false,
+    "name": "butterworth",
+    "reject_outliers": {
+      "to_do": true
+    },
+    "butterworth": {
+      "to_do": true,
+      "order": 4,
+      "cut_off_frequency": 3.4542
+    },
+    "kalman": {
+      "to_do": false,
+      "trust_ratio": 100,
+      "smooth": false
+    },
+    "butterworth_on_speed": {
+      "to_do": false,
+      "order": 4,
+      "cut_off_frequency": 3.4542
+    },
+    "gaussian": {
+      "to_do": false,
+      "sigma_kernel": 1
+    },
+    "loess": {
+      "to_do": false,
+      "nb_values_used": 5
+    },
+    "median": {
+      "to_do": false,
+      "kernel_size": 9
+    },
+    "gcv_spline": {
+      "to_do": false,
+      "cut_off_frequency": "auto",
+      "smoothing_factor": 0.5
+    }
+  },
+  "markerAugmentation": {
+    "feet_on_floor": true,
+    "make_c3d": false,
+    "model_dir": "D:\\Users\\Etudiant\\Documents\\MOCAPIA5\\mocapia_3\\mocapia_2.0\\src\\MarkerAugmenter",
+    "augmenterModelName": "LSTM",
+    "augmenter_model": "v0.3",
+    "use_hybrid": false,
+    "hybrid_suffix": "LSTM"
+  },
+  "kinematics": {
+    "conda_environment_name": "Pose2Sim"
+  },
+  "rra": {
+    "enabled": false,
+    "conda_environment_name": "Pose2Sim",
+    "initial_time": 0.0,
+    "final_time": 1.0,
+    "use_grf": false,
+    "grf_file_path": ""
+  }
+}

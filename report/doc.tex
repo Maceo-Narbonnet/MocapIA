@@ -1,0 +1,59 @@
+% LTeX: language=fr
+\documentclass[11pt]{report}
+\usepackage{lib/utc-report-template}
+\usepackage{lib/glossaire}
+\usepackage{subcaption}
+\usepackage{placeins}
+\usepackage{biblatex}
+\usepackage{amssymb}
+\usepackage{graphicx} % Pour inclure les images
+\usepackage{wrapfig}  % Pour le placement à côté du texte
+\usepackage{tabularx}
+\usepackage{hyperref}
+\DeclareUnicodeCharacter{202F}{\,}
+\addbibresource{references.bib}
+
+% Meta informations
+\author{Macéo NARBONNET}
+
+\setcounter{secnumdepth}{2}
+
+
+\begin{document}
+    % Import des macros si besoin
+    \include{lib/macro}
+
+    %Creation de la page de garde
+    \frontpage
+
+    \pagenumbering{arabic}
+
+    \include{parts/Remerciements}
+
+    % Sommaire
+    \setcounter{tocdepth}{1}
+    \tableofcontents
+    \setlength{\parskip}{1em}    % Définit l'espace entre deux paragraphes
+    \setlength{\parindent}{2em}  % Définit la taille de l'alinéa
+
+    % Les parties du rapport
+    \include{parts/1-Resume Technique}
+    \include{parts/2-Introduction}
+    \include{parts/3-Présentation du projet MoCapIA}
+    \include{parts/4-Realisations}
+    \include{parts/5-Conclusion}
+
+    
+    % Bibliographie
+    \printbibliography[heading=bibintoc]
+    \include{parts/Glossaire}
+    
+    %Liste des figures et des tableaux
+    \listoffigures
+    %\listoftables
+    
+
+    % Annexes
+    \include{parts/6-Annexes} 
+    
+\end{document}

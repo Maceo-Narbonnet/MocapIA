@@ -1,0 +1,18 @@
+# Fichiers générés par la compilation LaTeX (regénérables depuis doc.tex)
+doc.aux
+doc.bbl
+doc.bbl-SAVE-ERROR
+doc.bcf
+doc.blg
+doc.fdb_latexmk
+doc.fls
+doc.glo
+doc.ist
+doc.lof
+doc.log
+doc.out
+doc.run.xml
+doc.synctex.gz
+doc.toc
+parts/*.aux
+lib/*.aux
